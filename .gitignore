@@ -1,0 +1,11 @@
+calc
+calc0
+calc1
+calc2
+calc3
+calc4
+calc5
+calc_din
+*.o
+*.a
+*.so
