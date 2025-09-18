@@ -61,18 +61,4 @@ distclean: clean
 depend:
 	makedepend -- $(CFLAGS) -- $(SRCS) $(LIBSRCS)
 
-VA=""
-VB:="$(shell date)"
-
-
-PERSON=Porto
-MSG1:="Hello $(PERSON)"
-MSG2="Hello $(PERSON)"
-PERSON=Mundo
-
-
-test:
-	@echo "building $(LIBFILE) $(SOFILE)" $LIBOBJS
-	@echo $(MSG1)
-	@echo $(MSG2)
 
